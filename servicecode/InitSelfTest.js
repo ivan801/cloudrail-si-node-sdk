@@ -73,7 +73,11 @@ class InitSelfTest {
             let limit = 50;
             while (!pjson && limit > 0) {
                 try {
-                    pjson = require(path);
+                    let tmp = require(path);
+                    if (tmp.name === "cloudrail-si")
+                        throw Error();
+                    else
+                        pjson = tmp;
                 }
                 catch (err) {
                     if (path.startsWith("./")) {
