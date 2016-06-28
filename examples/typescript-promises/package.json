@@ -1,0 +1,9 @@
+{
+  "name": "typescript-promises",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cloudrail-si": "^2.4.0"
+  }
+}

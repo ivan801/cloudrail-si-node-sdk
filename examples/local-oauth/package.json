@@ -1,0 +1,9 @@
+{
+  "name": "local-oauth",
+  "version": "0.0.1",
+  "dependencies": {
+    "cloudrail-si": "^2.4.0",
+    "opn": "^4.0.2"
+  },
+  "private": true
+}

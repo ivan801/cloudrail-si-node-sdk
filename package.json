@@ -1,0 +1,40 @@
+{
+	"name": "cloudrail-si",
+	"author": "CloudRail <info@cloudrail.com> (https://cloudrail.com)",
+	"description": "The CloudRail SI SDK for Node.JS, a simple, universal, unified API for the most popular cloud services",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CloudRail/cloudrail-si-node-sdk"
+	},
+	"keywords": [
+		"Box",
+		"Dropbox",
+		"Facebook",
+		"Foursquare",
+		"GitHub",
+		"GoogleDrive",
+		"GooglePlaces",
+		"GooglePlus",
+		"Instagram",
+		"LinkedIn",
+		"MailJet",
+		"MicrosoftLive",
+		"Nexmo",
+		"OneDrive",
+		"PayPal",
+		"SendGrid",
+		"Slack",
+		"Stripe",
+		"Twilio",
+		"Twitter",
+		"Yahoo",
+		"Yelp"
+	],
+	"engines": {
+		"node": ">=4.0.0"
+	},
+	"engineStrict": true,
+	"version": "2.4.0",
+	"main": "index.js",
+	"typings": "index.d.ts"
+}
